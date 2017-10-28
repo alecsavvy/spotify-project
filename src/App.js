@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import spotifyLogo from './spotify-logo.png';
 import './App.css';
 import SearchArtists from './components/SearchArtists'
 import NewPlaylist from './components/NewPlaylist'
@@ -10,7 +10,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          <img src={spotifyLogo} className="App-logo" alt="logo" />
           <h1 className="App-title">Spotify Project</h1>
         </header>
         <p className="App-intro">
