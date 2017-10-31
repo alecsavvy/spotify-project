@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import spotifyLogo from './spotify-logo.png';
 import './App.css';
-import SearchArtists from './components/SearchArtists'
-import NewPlaylist from './components/NewPlaylist'
-import Venues from './components/Venues'
+import SearchArtists from './components/spotify/SearchArtists'
+import NewPlaylist from './components/spotify/NewPlaylist'
+import Venues from './components/songkick/Venues'
+import LocationSearch from './components/songkick/LocationSearch'
 
 class App extends Component {
   render() {
@@ -19,6 +20,7 @@ class App extends Component {
         <SearchArtists />
         <NewPlaylist />
         <Venues />
+        <LocationSearch />
       </div>
     );
   }
