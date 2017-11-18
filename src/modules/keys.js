@@ -1,7 +1,7 @@
 // Spotify Keys
-export const SPOTIFY_ACCESS_TOKEN = '';
-export const SPOTIFY_CLIENT_ID = '';
-export const SPOTIFY_CLIENT_SECRET = '';
+export const SPOTIFY_ACCESS_TOKEN = 'BQCY4o_LCwam1sgaGoFtBh9FQQl2zHBExnyx65CyzrNrzUfGRmLURNijXLvUKYCNLzGaSrq0tEXYZO3qobkJMG1d7l0U9TM4ke7UI7GGef0Ymeaw4sawhx8xB_BPw8N5tAWguVDdyOs_UN_6W4r4SJTb2HVv8Vc';
+export const SPOTIFY_CLIENT_ID = '2ab57b34918846348e0d77c962dd33c0';
+export const SPOTIFY_CLIENT_SECRET = '8964c5a50d6f43fdb6db997ea1cbece2';
 
 // Songkick Keys
-export const SONGKICK_API_KEY = '';
+export const SONGKICK_API_KEY = 'eNEy8r3PC9eTD0IU';

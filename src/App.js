@@ -4,6 +4,7 @@ import './App.css';
 import SearchArtists from './components/SearchArtists'
 import NewPlaylist from './components/NewPlaylist'
 import Venues from './components/Venues'
+import Login from './components/Login'
 
 class App extends Component {
   render() {
@@ -13,13 +14,12 @@ class App extends Component {
           <img src={spotifyLogo} className="App-logo" alt="logo" />
           <h1 className="App-title">Spotify Project</h1>
         </header>
+        <Venues />
         <p className="App-intro">
           Created by Alec Savoy.
         </p>
-        <SearchArtists />
-        <NewPlaylist />
-        <Venues />
       </div>
+      
     );
   }
 }
